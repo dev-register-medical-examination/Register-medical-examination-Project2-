@@ -1,0 +1,108 @@
+.login-body{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center !important;
+}
+.body-bound{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	z-index: 2;
+}
+.background{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
+	overflow: hidden;
+	opacity: .7;
+}
+.background img{
+	width: 100%;
+}
+.body-in{
+	/*position: absolute;*/
+	/*overflow: hidden;*/
+	width: 200px;
+	margin: auto;
+}
+.body-in input{
+	width: 100%;
+	padding: 5px 0 5px 5px;
+	margin: 5px 0;
+}
+.body-in button{
+	width: 210px;
+	padding: 5px 0 5px 5px;
+	margin: 5px 0;
+}
+.histoty-body{
+	width: 920px;
+	margin: auto;
+}
+.history-title{
+	width: 920px;
+	
+}
+.history-title ul{
+	height: 40px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.history-title ul li{
+	float: left;
+	overflow: hidden;
+	padding: 10px 40px;
+	margin: 0 5px;
+	border: 1px solid #333;
+}
+.history-list{
+	margin-top: 20px; 
+	width: 950px;
+	height: 400px;
+	overflow: scroll;
+}
+.item-in ul{
+	width: 920px;
+	height: 40px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.item-in ul li{
+	float: left;
+	overflow: hidden;
+	padding: 10px 40px;
+	margin: 0 5px;
+	border-bottom: 1px solid black;
+}
+.title{
+	width: 500px;
+	height: 50px;
+}
+.noidung{
+	width: 500px;
+	height: 400px;
+}
+.bound{
+	width: 500px;
+	overflow: hidden;
+}
+.baiviet-body{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	z-index: 2;
+}
+.baiviet-body ul{
+	list-style-type: none;
+}
+.baiviet-body button{
+	width: 500px;
+	padding: 5px 0 5px 5px;
+	margin: 5px 0;
+}
