@@ -590,9 +590,11 @@
                            type="datetime-local" name="Ngaykham">
 							<textarea name="messege" class="" rows="5" placeholder="Mô tả triệu chứng" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'"></textarea>
 							<div class="text-center confirm_btn_box">
-								<button class="main_btn text-uppercase" onClick="abc">Xác nhận</button>
+								<button class="main_btn text-uppercase" onClick='alert("Đăng kí thành công! Chúng tôi đã gửi thông tin vào gmail và số điện thoại của bạn.");'>Xác nhận</button>
                                 <script>
-                                    alert("Đăng kí thành công! Chúng tôi đã gửi thông tin vào gmail và số điện thoại của bạn.");
+                                    function click() {
+										alert("Đăng kí thành công! Chúng tôi đã gửi thông tin vào gmail và số điện thoại của bạn.");
+									}
                                              
                                 </script>
 							</div>
