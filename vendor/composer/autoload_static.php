@@ -4,15 +4,15 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitf7501899d86c75c92945a83156965a3d
+class ComposerStaticInit20da30c97e13069e1f417553beb8f3a1
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
+        'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
-        'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
@@ -1209,6 +1209,7 @@ class ComposerStaticInitf7501899d86c75c92945a83156965a3d
         'Illuminate\\Contracts\\Container\\ContextualBindingBuilder' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Contracts/Container/ContextualBindingBuilder.php',
         'Illuminate\\Contracts\\Cookie\\Factory' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Contracts/Cookie/Factory.php',
         'Illuminate\\Contracts\\Cookie\\QueueingFactory' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Contracts/Cookie/QueueingFactory.php',
+        'Illuminate\\Contracts\\Database\\Events\\MigrationEvent' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Contracts/Database/Events/MigrationEvent.php',
         'Illuminate\\Contracts\\Database\\ModelIdentifier' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Contracts/Database/ModelIdentifier.php',
         'Illuminate\\Contracts\\Debug\\ExceptionHandler' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Contracts/Debug/ExceptionHandler.php',
         'Illuminate\\Contracts\\Encryption\\DecryptException' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Contracts/Encryption/DecryptException.php',
@@ -1276,6 +1277,7 @@ class ComposerStaticInitf7501899d86c75c92945a83156965a3d
         'Illuminate\\Database\\Capsule\\Manager' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Capsule/Manager.php',
         'Illuminate\\Database\\Concerns\\BuildsQueries' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php',
         'Illuminate\\Database\\Concerns\\ManagesTransactions' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php',
+        'Illuminate\\Database\\ConfigurationUrlParser' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/ConfigurationUrlParser.php',
         'Illuminate\\Database\\Connection' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Connection.php',
         'Illuminate\\Database\\ConnectionInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/ConnectionInterface.php',
         'Illuminate\\Database\\ConnectionResolver' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/ConnectionResolver.php',
@@ -1345,6 +1347,11 @@ class ComposerStaticInitf7501899d86c75c92945a83156965a3d
         'Illuminate\\Database\\Eloquent\\SoftDeletes' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/SoftDeletes.php',
         'Illuminate\\Database\\Eloquent\\SoftDeletingScope' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/SoftDeletingScope.php',
         'Illuminate\\Database\\Events\\ConnectionEvent' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Events/ConnectionEvent.php',
+        'Illuminate\\Database\\Events\\MigrationEnded' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Events/MigrationEnded.php',
+        'Illuminate\\Database\\Events\\MigrationEvent' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Events/MigrationEvent.php',
+        'Illuminate\\Database\\Events\\MigrationStarted' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Events/MigrationStarted.php',
+        'Illuminate\\Database\\Events\\MigrationsEnded' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Events/MigrationsEnded.php',
+        'Illuminate\\Database\\Events\\MigrationsStarted' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Events/MigrationsStarted.php',
         'Illuminate\\Database\\Events\\QueryExecuted' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Events/QueryExecuted.php',
         'Illuminate\\Database\\Events\\StatementPrepared' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Events/StatementPrepared.php',
         'Illuminate\\Database\\Events\\TransactionBeginning' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Events/TransactionBeginning.php',
@@ -1378,6 +1385,7 @@ class ComposerStaticInitf7501899d86c75c92945a83156965a3d
         'Illuminate\\Database\\Schema\\Blueprint' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php',
         'Illuminate\\Database\\Schema\\Builder' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Schema/Builder.php',
         'Illuminate\\Database\\Schema\\ColumnDefinition' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Schema/ColumnDefinition.php',
+        'Illuminate\\Database\\Schema\\ForeignKeyDefinition' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Schema/ForeignKeyDefinition.php',
         'Illuminate\\Database\\Schema\\Grammars\\ChangeColumn' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Schema/Grammars/ChangeColumn.php',
         'Illuminate\\Database\\Schema\\Grammars\\Grammar' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Schema/Grammars/Grammar.php',
         'Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php',
@@ -1845,6 +1853,7 @@ class ComposerStaticInitf7501899d86c75c92945a83156965a3d
         'Illuminate\\View\\Compilers\\Concerns\\CompilesComponents' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesComponents.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesConditionals' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesConditionals.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesEchos' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesEchos.php',
+        'Illuminate\\View\\Compilers\\Concerns\\CompilesErrors' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesErrors.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesHelpers' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesHelpers.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesIncludes' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesIncludes.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesInjections' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesInjections.php',
@@ -3759,8 +3768,23 @@ class ComposerStaticInitf7501899d86c75c92945a83156965a3d
         'Symfony\\Contracts\\Cache\\CallbackInterface' => __DIR__ . '/..' . '/symfony/contracts/Cache/CallbackInterface.php',
         'Symfony\\Contracts\\Cache\\ItemInterface' => __DIR__ . '/..' . '/symfony/contracts/Cache/ItemInterface.php',
         'Symfony\\Contracts\\Cache\\TagAwareCacheInterface' => __DIR__ . '/..' . '/symfony/contracts/Cache/TagAwareCacheInterface.php',
+        'Symfony\\Contracts\\EventDispatcher\\Event' => __DIR__ . '/..' . '/symfony/contracts/EventDispatcher/Event.php',
+        'Symfony\\Contracts\\EventDispatcher\\EventDispatcherInterface' => __DIR__ . '/..' . '/symfony/contracts/EventDispatcher/EventDispatcherInterface.php',
+        'Symfony\\Contracts\\HttpClient\\ChunkInterface' => __DIR__ . '/..' . '/symfony/contracts/HttpClient/ChunkInterface.php',
+        'Symfony\\Contracts\\HttpClient\\Exception\\ClientExceptionInterface' => __DIR__ . '/..' . '/symfony/contracts/HttpClient/Exception/ClientExceptionInterface.php',
+        'Symfony\\Contracts\\HttpClient\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/symfony/contracts/HttpClient/Exception/ExceptionInterface.php',
+        'Symfony\\Contracts\\HttpClient\\Exception\\HttpExceptionInterface' => __DIR__ . '/..' . '/symfony/contracts/HttpClient/Exception/HttpExceptionInterface.php',
+        'Symfony\\Contracts\\HttpClient\\Exception\\RedirectionExceptionInterface' => __DIR__ . '/..' . '/symfony/contracts/HttpClient/Exception/RedirectionExceptionInterface.php',
+        'Symfony\\Contracts\\HttpClient\\Exception\\ServerExceptionInterface' => __DIR__ . '/..' . '/symfony/contracts/HttpClient/Exception/ServerExceptionInterface.php',
+        'Symfony\\Contracts\\HttpClient\\Exception\\TransportExceptionInterface' => __DIR__ . '/..' . '/symfony/contracts/HttpClient/Exception/TransportExceptionInterface.php',
+        'Symfony\\Contracts\\HttpClient\\HttpClientInterface' => __DIR__ . '/..' . '/symfony/contracts/HttpClient/HttpClientInterface.php',
+        'Symfony\\Contracts\\HttpClient\\ResponseInterface' => __DIR__ . '/..' . '/symfony/contracts/HttpClient/ResponseInterface.php',
+        'Symfony\\Contracts\\HttpClient\\ResponseStreamInterface' => __DIR__ . '/..' . '/symfony/contracts/HttpClient/ResponseStreamInterface.php',
+        'Symfony\\Contracts\\HttpClient\\Test\\HttpClientTestCase' => __DIR__ . '/..' . '/symfony/contracts/HttpClient/Test/HttpClientTestCase.php',
+        'Symfony\\Contracts\\HttpClient\\Test\\TestHttpServer' => __DIR__ . '/..' . '/symfony/contracts/HttpClient/Test/TestHttpServer.php',
         'Symfony\\Contracts\\Service\\ResetInterface' => __DIR__ . '/..' . '/symfony/contracts/Service/ResetInterface.php',
         'Symfony\\Contracts\\Service\\ServiceLocatorTrait' => __DIR__ . '/..' . '/symfony/contracts/Service/ServiceLocatorTrait.php',
+        'Symfony\\Contracts\\Service\\ServiceProviderInterface' => __DIR__ . '/..' . '/symfony/contracts/Service/ServiceProviderInterface.php',
         'Symfony\\Contracts\\Service\\ServiceSubscriberInterface' => __DIR__ . '/..' . '/symfony/contracts/Service/ServiceSubscriberInterface.php',
         'Symfony\\Contracts\\Service\\ServiceSubscriberTrait' => __DIR__ . '/..' . '/symfony/contracts/Service/ServiceSubscriberTrait.php',
         'Symfony\\Contracts\\Tests\\Cache\\CacheTraitTest' => __DIR__ . '/..' . '/symfony/contracts/Tests/Cache/CacheTraitTest.php',
@@ -3891,10 +3915,10 @@ class ComposerStaticInitf7501899d86c75c92945a83156965a3d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitf7501899d86c75c92945a83156965a3d::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitf7501899d86c75c92945a83156965a3d::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitf7501899d86c75c92945a83156965a3d::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitf7501899d86c75c92945a83156965a3d::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit20da30c97e13069e1f417553beb8f3a1::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit20da30c97e13069e1f417553beb8f3a1::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit20da30c97e13069e1f417553beb8f3a1::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit20da30c97e13069e1f417553beb8f3a1::$classMap;
 
         }, null, ClassLoader::class);
     }
