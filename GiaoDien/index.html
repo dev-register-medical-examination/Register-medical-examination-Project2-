@@ -19,7 +19,6 @@
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -92,7 +91,9 @@
 									<li class="nav-item submenu dropdown">
 										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
 										<ul class="dropdown-menu">
-										
+											<li class="nav-item">
+												<a class="nav-link" href="about.html">About</a>
+											</li>
 											<li class="nav-item">
 												<a class="nav-link" href="services.html">Services</a>
 											</li>
@@ -108,9 +109,6 @@
 												<a class="nav-link" href="single-blog.html">Blog Details</a>
 											</li>
 										</ul>
-										/!--	<li class="nav-item">
-												<a class="nav-link" href="about.html">About</a>
-											</li>--Copyright/
 									</li>-->
 									<li class="nav-item">
 										<a class="nav-link" href="contact.html">Contact</a>
@@ -485,7 +483,7 @@
 									find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
 								</p>
 							</div>
-						</div> 0835442911 *100*913721231123987#
+						</div>
 					</div>
 
 					<div class="row">
@@ -579,7 +577,7 @@
 							<input type="email" class="form-control" name="email" placeholder="Email " onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'">
 							<input id="datepicker1" name="dop" class="dates form-control" placeholder="Ngày sinh" type="date">
 							<div class="form-select" id="service-select">
-								<select class="large">
+								<select>
 									<option data-display="">Chọn bác sỹ khám</option>
 									<option value="1">Bác sỹ - 70.000</option>
 									<option value="2">Thạc sỹ - 100.000</option>
@@ -592,9 +590,11 @@
                            type="datetime-local" name="Ngaykham">
 							<textarea name="messege" class="" rows="5" placeholder="Mô tả triệu chứng" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'"></textarea>
 							<div class="text-center confirm_btn_box">
-								
-                                <input name="Submit" type="submit" class="submit_btn" onclick="alert('Đăng kí thành công! Chúng tôi đã gửi thông tin vào gmail và số điện thoại của bạn.')" value="Xác nhận"/>
-                                
+								<button class="main_btn text-uppercase" onClick="abc">Xác nhận</button>
+                                <script>
+                                    alert("Đăng kí thành công! Chúng tôi đã gửi thông tin vào gmail và số điện thoại của bạn.");
+                                             
+                                </script>
 							</div>
 						</form>
 					</div>

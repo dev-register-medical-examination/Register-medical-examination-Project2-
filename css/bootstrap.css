@@ -274,12 +274,14 @@ textarea {
 
 button,
 input {
-    overflow: visible
+	overflow: visible;
+	color: #FFF;
 }
 
 button,
 select {
-    text-transform: none
+	text-transform: none;
+	color: #CCCCCC;
 }
 
 [type=reset],
@@ -3124,7 +3126,9 @@ fieldset:disabled a.btn {
 input[type=button].btn-block,
 input[type=reset].btn-block,
 input[type=submit].btn-block {
-    width: 100%
+	width: 100%;
+	background-color: #03F;
+	color: #666;
 }
 
 .fade {
